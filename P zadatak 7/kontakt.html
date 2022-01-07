@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html lang="hr">
+<html>
+	<head>
+	
+		<!-- CSS -->
+		<link rel="stylesheet" href="style.css">
+		<!-- End CSS -->
+		<!-- meta elements -->
+		<title>Rimska legija</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="description" content="Rimska legija">
+		<meta name="keywords" content="rim, legija, rimska, vojska, imperij, legionar">
+		<meta name="author" content="Josip Kutnjak">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+	</head>
+<body>
+	<header>
+		<div class="header-content">
+			<div class="logo">
+				<a href="index.html"><img src="images/logo.png" alt="Kaciga" width= "10%/></a>
+		<div class="header">
+			<img src= "images/header.jpg" alt="Legija" title="Rimska legija" width= "100%" >			
+				</div>
+			</div>
+		
+	</header>
+		<nav>
+		
+		
+			<ul>
+			  <li><a href="index.html" target="_self">Početna stranica</a></li>
+			  <li><a href="novosti.html">Novosti</a></li>
+			  <li><a href="kontakt.html">Kontakt</a></li>
+			  <li><a href="onama.html">O nama</a></li>
+			  <li><a href="galerijaslika.html">Galerija slika</a></li>
+			</ul>
+		</nav>
+	<main>
+		<h1>Kontakt forma</h1>
+		<div id="contact">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11118.280789890412!2d17.352435894831782!3d45.83988646734964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4767ea804386c2bf%3A0x13aef763d7c06afd!2sUl.%20Josipa%20Jurja%20Strossmayera%20202%2C%2033000%2C%20Virovitica!5e0!3m2!1sen!2shr!4v1641573827962!5m2!1sen!2shr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			<form action=form action="showuser2.php" method="post">
+				<label for="fname">Ime *</label>
+				<input type="text" id="fname" name="firstname" placeholder="Ime.." required>
+
+				<label for="lname">Prezime *</label>
+				<input type="text" id="lname" name="lastname" placeholder="Prezime.." required>
+				
+				<label for="email">E-mail adresa *</label>
+				<input type="email" id="email" name="email" placeholder="E-mail.." required>
+
+				<label for="country">Odaberite Državu:</label>
+				<select id="country" name="country">
+				  <option value="">Odaberite...</option>
+				  <option value="UK">United Kingdom</option>
+				  <option value="HR" selected>Croatia</option>
+				  <option value="US">United States</option>
+				  <option value="IE">Ireland</option>
+				  <option value="DE">Germany</option>
+				  <option value="IT">Italy</option>
+				</select>
+
+				<label for="subject">Naslov</label>
+				<textarea id="subject" name="subject" placeholder="Komentirajte..." rows="3"></textarea>
+
+				<input type="submit" value="Potvrdi">
+				
+			</form>
+		</div>
+	</main>
+	<footer>
+		<p>Copyright &copy; 2021/2022. Josip Kutnjak <a href="https://github.com/KutnjakJosip/Projekt"><img src="images/GitHub-Mark-Light-32px.png" title="Github" alt="Github"></a></p>
+	</footer>
+</body>
+</html>
